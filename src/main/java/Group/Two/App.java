@@ -22,5 +22,6 @@ public class App
     	Person person = new Person("John", 30);
         String personToJson = gson.toJson(person);
         System.out.println(personToJson);
+        System.out.println(personToJson);
     }
 }
